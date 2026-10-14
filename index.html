@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinépolis - Inicio</title>
+    <style>
+
+        body {
+            font-family: 'Century Gothic', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333333;
+        }
+
+        header {
+            background-color: #0b2545;
+            color: white;
+            padding: 15px 30px;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        .contenedor {
+            background-color: #f8f9fa;
+            width: 85%;
+            max-width: 600px;
+            margin: 30px auto;
+            padding: 25px;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+        }
+
+        .introduccion {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .campo {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-family: 'Century Gothic', sans-serif;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #0b2545;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            font-family: 'Century Gothic', sans-serif;
+        }
+
+        footer {
+            background-color: #0b2545;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Cinépolis</div>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="estrenos.html">Estrenos</a>
+            <a href="proximos.html">Próximos estrenos</a>
+        </nav>
+    </header>
+
+    <main class="contenedor">
+        <section class="introduccion">
+            <h2>Bienvenido a Cinépolis</h2>
+            <p>Somos la empresa líder en entretenimiento cinematográfico, ofreciéndote las mejores salas, tecnología y dulcería para disfrutar de tus películas favoritas.</p>
+        </section>
+
+        <section>
+            <h3 style="text-align: center;">Registrar Tarjeta Club Cinépolis</h3>
+            <form action="" method="POST">
+                <div class="campo">
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div class="campo">
+                    <label for="tarjeta">Número de tarjeta Club Cinépolis:</label>
+                    <input type="text" id="tarjeta" name="tarjeta" placeholder="16 dígitos" required>
+                </div>
+
+                <div class="campo">
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" required>
+                </div>
+
+                <div class="campo">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </div>
+
+                <button type="submit">Registrar Tarjeta</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p><strong>Nombre:</strong> Dania Graciela Silva Heredia</p>
+        <p><strong>Número de control:</strong> 24308051280665</p>
+        <p><strong>Grado y grupo:</strong> 5 º I</p>
+    </footer>
+
+</body>
+</html>
